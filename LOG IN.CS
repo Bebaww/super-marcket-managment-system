@@ -21,13 +21,20 @@ namespace employeemanagment
         {
             if (txt_username.Text == "admin" & txt_password.Text == "admin")
             {
-               MENU menu = new MENU();
-               menu .Show();
+                MENU menu = new MENU();
+                menu.Show();
+            }
+            else if (txt_username.Text == "cashier" & txt_password.Text == "cashier")
+            {
+                product_managment p = new product_managment();
+                p.Show();
             }
             else
-                MessageBox.Show("incorrect username or password");
+                MessageBox.Show("incorrect password or username");
             txt_password.Text = "";
             txt_username.Text = "";
+
+
         }
     }
 }

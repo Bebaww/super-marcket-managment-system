@@ -22,5 +22,11 @@ namespace employeemanagment
             Form1 F = new Form1();
                 F.Show();
         }
+
+        private void pRODUCTMANAGMENTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            product_managment p = new product_managment();
+            p.Show();
+        }
     }
 }

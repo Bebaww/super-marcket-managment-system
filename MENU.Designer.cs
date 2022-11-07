@@ -30,13 +30,15 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.eMPLOYEEMANAGMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pRODUCTMANAGMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eMPLOYEEMANAGMENTToolStripMenuItem});
+            this.eMPLOYEEMANAGMENTToolStripMenuItem,
+            this.pRODUCTMANAGMENTToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -49,6 +51,13 @@
             this.eMPLOYEEMANAGMENTToolStripMenuItem.Size = new System.Drawing.Size(157, 20);
             this.eMPLOYEEMANAGMENTToolStripMenuItem.Text = "EMPLOYEE MANAGMENT";
             this.eMPLOYEEMANAGMENTToolStripMenuItem.Click += new System.EventHandler(this.eMPLOYEEMANAGMENTToolStripMenuItem_Click);
+            // 
+            // pRODUCTMANAGMENTToolStripMenuItem
+            // 
+            this.pRODUCTMANAGMENTToolStripMenuItem.Name = "pRODUCTMANAGMENTToolStripMenuItem";
+            this.pRODUCTMANAGMENTToolStripMenuItem.Size = new System.Drawing.Size(156, 20);
+            this.pRODUCTMANAGMENTToolStripMenuItem.Text = " PRODUCT MANAGMENT";
+            this.pRODUCTMANAGMENTToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTMANAGMENTToolStripMenuItem_Click);
             // 
             // MENU
             // 
@@ -71,5 +80,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem eMPLOYEEMANAGMENTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pRODUCTMANAGMENTToolStripMenuItem;
     }
 }
